@@ -7,14 +7,6 @@
 
 import SwiftUI
 
-//@main
-//struct ParkYou_Watch_AppApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            HomeView()
-//        }
-//    }
-//}
 
 @main
 struct ParkYouApp: App {

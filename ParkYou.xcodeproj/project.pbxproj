@@ -9,9 +9,15 @@
 /* Begin PBXBuildFile section */
 		811CD1262C03DD8B0063B29D /* ParkYou Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 811CD1252C03DD8B0063B29D /* ParkYou Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		811CD12B2C03DD8B0063B29D /* ParkYouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD12A2C03DD8B0063B29D /* ParkYouApp.swift */; };
-		811CD12D2C03DD8B0063B29D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD12C2C03DD8B0063B29D /* ContentView.swift */; };
+		811CD12D2C03DD8B0063B29D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD12C2C03DD8B0063B29D /* HomeView.swift */; };
 		811CD12F2C03DD8D0063B29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811CD12E2C03DD8D0063B29D /* Assets.xcassets */; };
 		811CD1322C03DD8D0063B29D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811CD1312C03DD8D0063B29D /* Preview Assets.xcassets */; };
+		811CD13D2C03DE280063B29D /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD13C2C03DE280063B29D /* DirectionView.swift */; };
+		811CD13F2C03DE980063B29D /* BeaconCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD13E2C03DE980063B29D /* BeaconCalculation.swift */; };
+		811CD1412C03E8B50063B29D /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD1402C03E8B50063B29D /* DoneView.swift */; };
+		811CD1432C03F18F0063B29D /* TxPowerMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD1422C03F18F0063B29D /* TxPowerMeasurement.swift */; };
+		811CD1452C03F1EB0063B29D /* BeaconDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD1442C03F1EB0063B29D /* BeaconDetectorView.swift */; };
+		811CD1472C03F3DC0063B29D /* CoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811CD1462C03F3DC0063B29D /* CoordinateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +48,15 @@
 		811CD11F2C03DD8B0063B29D /* ParkYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		811CD1252C03DD8B0063B29D /* ParkYou Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParkYou Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811CD12A2C03DD8B0063B29D /* ParkYouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkYouApp.swift; sourceTree = "<group>"; };
-		811CD12C2C03DD8B0063B29D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		811CD12C2C03DD8B0063B29D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		811CD12E2C03DD8D0063B29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811CD1312C03DD8D0063B29D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		811CD13C2C03DE280063B29D /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		811CD13E2C03DE980063B29D /* BeaconCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconCalculation.swift; sourceTree = "<group>"; };
+		811CD1402C03E8B50063B29D /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
+		811CD1422C03F18F0063B29D /* TxPowerMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxPowerMeasurement.swift; sourceTree = "<group>"; };
+		811CD1442C03F1EB0063B29D /* BeaconDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconDetectorView.swift; sourceTree = "<group>"; };
+		811CD1462C03F3DC0063B29D /* CoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				811CD12A2C03DD8B0063B29D /* ParkYouApp.swift */,
-				811CD12C2C03DD8B0063B29D /* ContentView.swift */,
+				811CD12C2C03DD8B0063B29D /* HomeView.swift */,
+				811CD13C2C03DE280063B29D /* DirectionView.swift */,
+				811CD1402C03E8B50063B29D /* DoneView.swift */,
+				811CD13E2C03DE980063B29D /* BeaconCalculation.swift */,
+				811CD1422C03F18F0063B29D /* TxPowerMeasurement.swift */,
+				811CD1442C03F1EB0063B29D /* BeaconDetectorView.swift */,
+				811CD1462C03F3DC0063B29D /* CoordinateView.swift */,
 				811CD12E2C03DD8D0063B29D /* Assets.xcassets */,
 				811CD1302C03DD8D0063B29D /* Preview Content */,
 			);
@@ -192,7 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811CD12D2C03DD8B0063B29D /* ContentView.swift in Sources */,
+				811CD13D2C03DE280063B29D /* DirectionView.swift in Sources */,
+				811CD13F2C03DE980063B29D /* BeaconCalculation.swift in Sources */,
+				811CD1472C03F3DC0063B29D /* CoordinateView.swift in Sources */,
+				811CD12D2C03DD8B0063B29D /* HomeView.swift in Sources */,
+				811CD1452C03F1EB0063B29D /* BeaconDetectorView.swift in Sources */,
+				811CD1412C03E8B50063B29D /* DoneView.swift in Sources */,
+				811CD1432C03F18F0063B29D /* TxPowerMeasurement.swift in Sources */,
 				811CD12B2C03DD8B0063B29D /* ParkYouApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +358,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ParkYou;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth to discover beacons.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "We use Bluetooth to discover beacons.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +390,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ParkYou;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth to discover beacons.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "We use Bluetooth to discover beacons.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
